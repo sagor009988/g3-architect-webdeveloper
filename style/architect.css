@@ -19,7 +19,7 @@ header{
  border-radius: 10px;
     width: 180px;
     height: 64px;
-   
+   cursor: pointer;
     margin-bottom: 20px;
 }
 nav{
@@ -65,4 +65,29 @@ font-weight: 700;
 }
 header img{
     width: 100%;
+}
+
+
+
+
+/*responsive mediya style*/
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/*medium device*/
+@media screen and (min-width:576px) and  (max-width:960px) {
+
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction:column;
+        align-items: center;
+    }
+    
 }
