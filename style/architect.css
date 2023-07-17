@@ -74,6 +74,7 @@ header img{
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
+
     }
     nav{
         flex-direction: column;
@@ -90,4 +91,49 @@ header img{
         align-items: center;
     }
     
+}
+/*main styles*/
+main{
+    max-width: 1440px;
+ margin: 0 auto;
+}
+.teams-container{
+   display: flex;
+   align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap:1rem;
+
+}
+.teams-content{
+padding-left: 70px;
+padding-right: 70px;
+}
+.teams-title{
+    width: 468px;
+    color: var(--dark-03, #727272);
+    font-size: 3rem;
+    font-weight: 500;
+    width: 468px;
+}
+.quick{
+    color: var(--dark-03, #727272);
+}
+.our{
+    color: var(--dark-01, #131313);
+font-weight: 700;
+}
+.features{
+    color: #FF900E;
+font-weight: 700;
+}
+.teams-description{
+width: 537px;
+color: var(--dark-03, #727272);
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 30px;
+
 }
